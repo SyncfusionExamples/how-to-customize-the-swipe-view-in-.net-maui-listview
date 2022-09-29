@@ -115,7 +115,7 @@
                                    Grid.Column="1"
                                    Text="{Binding Subject}"
                                    FontFamily="Roboto-Medium"
-                                   FontSize="14"
+                                   FontSize="16"
                                    TextColor="#000000"
                                    LineBreakMode="TailTruncation"
                                    CharacterSpacing="0.25" />
@@ -124,7 +124,7 @@
                                    Grid.Column="1"
                                    Text="{Binding Description}"
                                    FontFamily="Roboto-Regular"
-                                   FontSize="14"
+                                   FontSize="16"
                                    TextColor="{Binding IsOpened,Converter={StaticResource textColorConverter}}"
                                    Margin="0,4,0,0"
                                    LineBreakMode="TailTruncation"
@@ -174,7 +174,7 @@
 
                             <BoxView Grid.Row="4"
                                      Grid.ColumnSpan="3"
-                                     BackgroundColor="LightGray"
+                                     Color="LightGray"
                                      HeightRequest="0.8"
                                      VerticalOptions="End"
                                      Margin="0,14,0,0" />
@@ -186,7 +186,7 @@
                                    FontFamily="Roboto-Regular"
                                    HorizontalOptions="End"
                                    HorizontalTextAlignment="End"
-                                   FontSize="10"
+                                   FontSize="12"
                                    Margin="0,0,16,0"
                                    CharacterSpacing="0.15" />
 
